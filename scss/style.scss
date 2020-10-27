@@ -1,0 +1,126 @@
+// ==============================================
+// Index Page / Home Page
+// ================================================
+
+header {
+    background: #000;
+
+    .container{
+        padding: 0;
+    }
+
+    .navbar a {
+        color: #fff;
+    }
+
+    .nav-item {
+        text-transform: uppercase;
+    }
+}
+
+// ===========================================
+
+#home {
+    .one,
+    .two,
+    .three {
+        padding-top: 11rem;
+        padding-bottom: 7rem;
+    }
+
+    .one {
+        background-image: url(../img/image1.jpeg);
+    }
+
+    .two {
+        background-image: url(../img/image2.jpeg);
+    }
+
+    .three {
+        background-image: url(../img/image3.jpeg);
+    }
+}
+
+// ===========================================
+
+#ready {
+    background: url(../img/image3.jpeg);
+    background-attachment: fixed;
+
+    .overlay {
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+
+// ===========================================
+
+#course {
+    background-image: url(../img/image3.jpeg);
+
+    .fa {
+        color: red;
+    }
+}
+
+.copyright{
+    background-color: #000;
+}
+
+// ===============================================================
+// About Page Starts Below
+// ============================================================
+
+#page-header {
+    background-image: url(../img/image1.jpeg);
+    background-position: top;
+}
+
+#about-us {
+    img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .slider .slick-prev::before {
+        color: #000;
+    }
+
+    .slider .slick-next::before {
+        color: #000;
+    }
+}
+
+// =============================================
+// Service Page
+
+#services-section {
+    background-image: url(../img/image3.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    header {
+        background: none;
+    }
+}
+
+// ===============================================
+// Blog Page
+// ===============================================
+
+#blog-section{
+    background-image: url(../img/image3.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+    header{
+        background:none;
+    }
+}
+
+#contact-section{
+    background-image: url(../img/image3.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+

@@ -1,0 +1,100 @@
+header{
+  background: #000;
+}
+
+header .container {
+  padding: 0;
+}
+
+header .navbar a {
+  color: #fff;
+}
+
+header .nav-item {
+  text-transform: uppercase;
+}
+
+#home .one,
+#home .two,
+#home .three {
+  padding-top: 11rem;
+  padding-bottom: 7rem;
+}
+
+#home .one {
+  background-image: url(../img/image1.jpeg);
+}
+
+#home .two {
+  background-image: url(../img/image2.jpeg);
+}
+
+#home .three {
+  background-image: url(../img/image3.jpeg);
+}
+
+#ready {
+  background: url(../img/image3.jpeg);
+  background-attachment: fixed;
+}
+
+#ready .overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#course {
+  background-image: url(../img/image3.jpeg);
+}
+
+#course .fa {
+  color: red;
+}
+
+.copyright {
+  background-color: #000;
+}
+
+#page-header {
+  background-image: url(../img/image1.jpeg);
+  background-position: top;
+}
+
+#about-us img {
+  width: 350px;
+  height: 350px;
+}
+
+#about-us .slider .slick-prev::before {
+  color: #000;
+}
+
+#about-us .slider .slick-next::before {
+  color: #000;
+}
+
+#services-section {
+  background-image: url(../img/image3.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#services-section header {
+  background: none;
+}
+
+#blog-section {
+  background-image: url(../img/image3.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#blog-section header {
+  background: none;
+}
+
+#contact-section {
+  background-image: url(../img/image3.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*# sourceMappingURL=style.css.map */
